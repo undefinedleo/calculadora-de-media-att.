@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora de Média</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">Calculadora de Média</h1>
+      <div class="imagem">
+        <img
+          src="https://images.vexels.com/media/users/3/205996/isolated/preview/81d3f60bca6d3b2cbef6ba1ff1e0b4f7-desenho-de-calculadora-fofo.png"
+        />
+      </div>
+      <p class="explicacao">
+        Calcule qual é a sua média dos respectivos bimestres ou trimestres (de
+        acordo com o sistema de avaliação de sua escola/faculdade). Basta
+        inserir abaixo as suas notas, nas respectivas caixas, para você
+        descobrir a sua média.
+      </p>
+      <input type="number" id="meedia" size="2" placeholder="Sua Média" />
+      <input
+        type="number"
+        id="nota1"
+        size="2"
+        placeholder="Nota do 1º Bimestre"
+      />
+      <input
+        type="number"
+        id="nota2"
+        size="2"
+        placeholder="Nota do 2º Bimestre"
+      />
+      <input
+        type="number"
+        id="nota3"
+        size="2"
+        placeholder="Nota do 3º Bimestre"
+      />
+      <input
+        type="number"
+        id="nota4"
+        size="2"
+        placeholder="Nota do 4º Bimestre"
+      /><br />
+      <button type="submit" onclick="Calculo()">
+        Calcule a sua Média Bimestral
+      </button>
+      <div class="form-wrapper">
+        <input type="number" id="media2" size="2" placeholder="Sua Média" />
+        <input
+          type="number"
+          id="tri1"
+          size="2"
+          placeholder="Nota do 1º Trimestre"
+        />
+        <input
+          type="number"
+          id="tri2"
+          size="2"
+          placeholder="Nota do 2º Trimestre"
+        />
+        <input
+          type="number"
+          id="tri3"
+          size="2"
+          placeholder="Nota do 3º Trimestre"
+        /><br />
+        <button type="submit" onclick="Calculo1()">
+          Calcule a sua Média Trimestral
+        </button>
+      </div>
+      <h2 class="lresult">Resultado</h2>
+      <h3 class="valorTotal" id="valorTotal"></h3>
+      <footer>Desenvolvido por <strong>Leonardo Laia</strong></footer>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+    </a>
+  </body>
+</html>

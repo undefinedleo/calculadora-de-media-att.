@@ -1,0 +1,145 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url(//db.onlinewebfonts.com/c/561f38b1f4570de0fb8a39d691ab058c?family=Tungsten+Bold);
+@font-face {font-family: "Tungsten Bold"; src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot"); src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten Bold") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+/* fontes */
+
+body {
+  text-align:center;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/0a619155c82b694e2267f3ed5c752919b707e33b/ef36f/static/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg");
+  background-size: cover;
+}
+.alura-logo {
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.container {
+  background: linear-gradient(to top, #85a9ed, #6dd5fa);
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+  text-align: center;
+}
+.imagem img{
+  width: 10rem;
+}
+.imagem:hover {
+ -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-15deg);
+}
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 1px;
+  font-size: 42px;
+  cursor: default;
+  font-family:'Tungsten Bold';
+}
+.page-title:hover {
+  transition-duration: 0.8s;
+  color: #00ffff;
+}
+
+.explicacao {
+  color:#ffffff;
+  margin: 0 0 5px;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  border-radius: 12px;
+  text-shadow: 1px 1px 1px #000;
+  cursor: default;
+}
+.explicacao:hover {
+  transition-duration: 0.7s;
+  color: #00ffff;
+}
+input {
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 8px 8px;
+  border-radius: 12px;
+  border: 0;
+  font-size: 12px;
+  margin-left: 0.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #6dd5fa;
+  background: #fcfcfc;
+  border-color: #6dd5fa;
+}
+button {
+  border: 1px solid #ffffff;
+  background: #6dd5fa;
+  color: white;
+  padding: 8px 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.form-wrapper button {
+  border: 1px solid #ffffff;
+  background: #6dd5fa;
+  color: white;
+  padding: 8px 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.lresult {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  cursor: default;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 26px;
+}
+.lresult:hover {
+  transition-duration: 0.7s;
+  color: #36ff26;
+}
+.valorTotal {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  cursor: default;
+  font-weight: 400;
+  background: hsl(0, 0%, 97%);
+  margin: 32px;
+  border-radius: 13px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+footer {
+  margin-top: 3px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 8px;
+  cursor: default;
+  color: white;
+}
+footer:hover {
+  color: #ffff00;
+}
