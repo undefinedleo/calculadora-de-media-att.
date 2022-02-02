@@ -9,7 +9,6 @@
     <title>Calculadora de Média</title>
   </head>
 
- <form>
   <body>
     <div class="container">
       <h1 class="page-title">Calculadora de Média</h1>
@@ -24,6 +23,7 @@
         inserir abaixo as suas notas, nas respectivas caixas, para você
         descobrir a sua média.
       </p>
+       <form>
       <input type="number" id="meedia" size="2" placeholder="Sua Média" />
       <input
         type="number"
@@ -52,7 +52,9 @@
       <button type="submit" onclick="Calculo()">
         Calcule a sua Média Bimestral
       </button>
+      </form>
       <div class="form-wrapper">
+       <form>
         <input type="number" id="media2" size="2" placeholder="Sua Média" />
         <input
           type="number"
@@ -75,7 +77,8 @@
         <button type="submit" onclick="Calculo1()">
           Calcule a sua Média Trimestral
         </button>
-      </div>
+        </form>
+         </div>
       <h2 class="lresult">Resultado</h2>
       <h3 class="valorTotal" id="valorTotal"></h3>
       <footer>Desenvolvido por <strong>Leonardo Laia</strong></footer>
