@@ -138,6 +138,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
   margin: 8px;
   cursor: default;
+  text-decoration: underline wavy;
   color: white;
 }
 footer:hover {
